@@ -22,6 +22,12 @@ cp example.env .env
 docker compose up --build
 ```
 
+## Запуск прослушивателя url (опционально)
+
+```bash
+python .local/webhook_listener.py
+```
+
 Сервис будет доступен на `http://localhost:8000`.
 RabbitMQ Management UI: `http://localhost:15672` (guest/guest).
 
